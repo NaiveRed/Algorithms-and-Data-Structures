@@ -34,7 +34,7 @@ void build(int n)
     for (i = 0; i < n; ++i)
         tree[T + i] = arr[i];
 
-    //進行填補，使其成為滿二元數
+    //進行填補，使其成為滿二元樹
     for (; i < T; ++i)
         tree[T + i] = PADDING;
 

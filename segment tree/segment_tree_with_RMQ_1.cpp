@@ -1,10 +1,4 @@
-/*
-線段樹(segment tree, interval tree)
-或是在演算法筆記中所述之 "Fake" segment tree
-來解決 區間最小值查詢(RMQ, range minimum query)
-
-http://www.csie.ntnu.edu.tw/~u91029/Sequence2.html#3
-*/
+//recursive
 #include <cstdio>
 #define N (1 << 5)
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
@@ -17,7 +11,7 @@ struct node
 {
     int min;      //區間最小值
 } tree[(N << 1)]; //root 為 [1]
-//int tree[N*4]; //非滿 2 元樹時
+//int tree[N*4]; //非滿 2 元樹時，例如 [0:5]
 
 void build(int L, int R, int idx)
 {
