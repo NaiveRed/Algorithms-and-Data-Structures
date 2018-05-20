@@ -20,6 +20,7 @@ Code:
 
 Test:  
 * UVa 12299
+* UVa 11235
 
 Ref:  
 <http://www.csie.ntnu.edu.tw/~u91029/Sequence2.html#3>  
