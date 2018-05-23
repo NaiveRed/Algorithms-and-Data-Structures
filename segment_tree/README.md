@@ -13,18 +13,18 @@
 
 Iterative 的版本則要注意留兩個空間，來從閉區間轉換成開區間，或使用其他實作方法。
 
-Code:  
+**Code:**  
 1. [Recursive version 1](segment_tree_with_RMQ_1.cpp)  
 2. [Recursive version 2](segment_tree_with_RMQ_2.cpp)
 3. [Iterative version](segment_tree_with_RMQ_3.cpp)
 
-Test:  
+**Test:**  
 * UVa 12299
 * UVa 11235
 
-Ref:  
-<http://www.csie.ntnu.edu.tw/~u91029/Sequence2.html#3>  
-<https://www.youtube.com/watch?v=GLuT4zKzdjc>  
-<https://www.slideshare.net/DanielChou/ss-7792670>  
-<http://codeforces.com/blog/entry/18051>  
-<https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/>
+**Ref:**  
+* <http://www.csie.ntnu.edu.tw/~u91029/Sequence2.html#3>  
+* <https://www.youtube.com/watch?v=GLuT4zKzdjc>  
+* <https://www.slideshare.net/DanielChou/ss-7792670>  
+* <http://codeforces.com/blog/entry/18051>  
+* <https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/>

@@ -1,7 +1,7 @@
 # Binary search
 
-Test:  
-UVa 10611
+**Test:**  
+* UVa 10611
 
 ## Upper bound
 
