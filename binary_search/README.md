@@ -1,5 +1,8 @@
 # Binary search
 
+**Code:**  
+1. [Binary Search](binary_search.cpp)
+
 **Test:**  
 * UVa 10611
 
